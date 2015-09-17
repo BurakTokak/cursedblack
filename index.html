@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="tr-TR">
+<head>
+<title>The Cursed Black Game</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<link href="http://fonts.googleapis.com/css?family=Open+sans:400,600,700&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width" />
+<script src="game.js"></script>
+</head>
+
+<div class="container">
+<div class="next-color">
+Next Color <div id="nextColor" class="nextC c0"></div> 
+</div>
+<h1>Cursed Black</h1>
+	<div id="game">
+	<div id="gameover" class="gameover">
+	<br><br><br>
+	<br>
+	<h1>Game Over!</h1>
+<div style=" font-size:22px;">
+Your Score: <div id="theScore">0</div><br><br>
+
+<a style="background:#35B4D7" target="_new" href="https://twitter.com/home?status=I played the Cursed Black Game http://www.buraktokak.com/cursedblack/ @BurakTokak">&nbsp;<i class="fa fa-twitter"></i> Share on Twitter&nbsp;</a><br><br>
+<a href="https://www.facebook.com/sharer/sharer.php?u=http://www.buraktokak.com/cursedblack/" target="_new">&nbsp;<i class="fa fa-facebook"></i> Share on Facebook&nbsp;</a><br><br><br>
+<a style="background:#D7432D;pointer:cursor;" onclick="playAgain()" target="_new">&nbsp;<i class="fa fa-gamepad"></i> Play Again&nbsp;&nbsp;</a>
+
+</div>
+	</div>
+		<div id="u1-1" class="unit c0" onclick="clickUnit(1,1)"></div>
+		<div id="u1-2" class="unit c1" onclick="clickUnit(1,2)"></div>
+		<div id="u1-3" class="unit c2" onclick="clickUnit(1,3)"></div>
+		<div id="u1-4" class="unit c2" onclick="clickUnit(1,4)"></div>
+		
+		<div id="u2-1" class="unit c1" onclick="clickUnit(2,1)"></div>
+		<div id="u2-2" class="unit c1" onclick="clickUnit(2,2)"></div>
+		<div id="u2-3" class="unit c2" onclick="clickUnit(2,3)"></div>
+		<div id="u2-4" class="unit c3" onclick="clickUnit(2,4)"></div>
+		
+		<div id="u3-1" class="unit c3" onclick="clickUnit(3,1)"></div>
+		<div id="u3-2" class="unit c1" onclick="clickUnit(3,2)"></div>
+		<div id="u3-3" class="unit c1" onclick="clickUnit(3,3)"></div>
+		<div id="u3-4" class="unit c4" onclick="clickUnit(3,4)"></div>
+		
+		<div id="u4-1" class="unit c3" onclick="clickUnit(4,1)"></div>
+		<div id="u4-2" class="unit c2" onclick="clickUnit(4,2)"></div>
+		<div id="u4-3" class="unit c2" onclick="clickUnit(4,3)"></div>
+		<div id="u4-4" class="unit c4" onclick="clickUnit(4,4)"></div>
+	</div>
+
+<div class="score">Your Score: <div id="theScoreDiv">0</div></div> 
+<div class="moves">Moves:
+<div id="theBlackCheck" class="BlackCheck3">
+<div class="nextC c0"></div>
+<div class="nextC c0"></div>
+<div class="nextC c0"></div>
+</div> </div>
+
+<div style="clear:both"></div><br><br>
+
+<b>Cursed Black</b> is an experimental game that focuses on developing your foresight. You will allow to make 3 moves before you make a line or column blocks all same color. If you can't, a black block capture one of your blocks.<br><br>
+
+By the way, you will challenge with the random block color changings. After every move of yours, the game will randomly change a block which is not a black block.<br><br>
+
+The Game will end when you don't have the space to tile any lines or columns with the same color. (12+ black blocks)
+
+</div>
