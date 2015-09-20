@@ -1,4 +1,4 @@
 cursedblack
 ===========
 
-A browser applicational game, that programmed with JS and HTML
+A browser applicational game, that programmed with JS.
